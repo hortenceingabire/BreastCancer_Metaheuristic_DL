@@ -60,16 +60,23 @@ The experiments compare model performance before and after metaheuristic-based f
 ---
 
 # 3. Repository Structure
-
-```text
+```bash
 BreastCancer_Metaheuristic_DL/
 │
 ├── Baselines/
 │   ├── baseline_rf_xgb_classification.py
 │   └── RF_XGB_5FOLD_RESULTS/
-│       ├── RF/
-│       ├── XGB/
 │       ├── figures/
+│       ├── RF/
+│       │   ├── Full_Features/
+│       │   │   └── fold_1/ ... fold_5/
+│       │   └── PSO_Selected/
+│       │       └── fold_1/ ... fold_5/
+│       ├── XGB/
+│       │   ├── Full_Features/
+│       │   │   └── fold_1/ ... fold_5/
+│       │   └── PSO_Selected/
+│       │       └── fold_1/ ... fold_5/
 │       └── baseline_5fold_results.csv
 │
 ├── FeatureSelection/
@@ -77,12 +84,14 @@ BreastCancer_Metaheuristic_DL/
 │   ├── aco_rf_feature_selection.py
 │   ├── PSO_RF_5FOLD_RESULTS/
 │   │   ├── figures/
-│   │   ├── fold_1 ... fold_5/
+│   │   ├── fold_1/ ... fold_5/
+│   │   ├── pso_convergence_curves.csv
 │   │   ├── pso_rf_5fold_results.csv
 │   │   └── pso_rf_5fold_summary.csv
 │   └── ACO_RF_5FOLD_RESULTS/
 │       ├── figures/
-│       ├── fold_1 ... fold_5/
+│       ├── fold_1/ ... fold_5/
+│       ├── aco_convergence_curves.csv
 │       ├── aco_rf_5fold_results.csv
 │       └── aco_rf_5fold_summary.csv
 │
@@ -90,23 +99,36 @@ BreastCancer_Metaheuristic_DL/
 │   ├── cnn_pso_classification.py
 │   ├── gru_pso_classification.py
 │   ├── cnn_gru_pso_classification.py
-│   └── CNN_5FOLD_RESULTS/
+│   │
+│   ├── CNN_5FOLD_RESULTS/
+│   │   ├── figures/
+│   │   ├── Full_Features/
+│   │   │   └── fold_1/ ... fold_5/
+│   │   ├── PSO_Selected/
+│   │   │   └── fold_1/ ... fold_5/
+│   │   └── cnn_5fold_results.csv
+│   │
+│   ├── GRU_5FOLD_RESULTS/
+│   │   ├── figures/
+│   │   ├── Full_Features/
+│   │   │   └── fold_1/ ... fold_5/
+│   │   ├── PSO_Selected/
+│   │   │   └── fold_1/ ... fold_5/
+│   │   └── gru_5fold_results.csv
+│   │
+│   └── CNNGRU_5FOLD_RESULTS/
 │       ├── figures/
 │       ├── Full_Features/
+│       │   └── fold_1/ ... fold_5/
 │       ├── PSO_Selected/
-│       └── cnn_5fold_results.csv
+│       │   └── fold_1/ ... fold_5/
+│       └── cnngru_5fold_results.csv
 │
-├── GRU_5FOLD_RESULTS/
-│   ├── figures/
-│   ├── Full_Features/
-│   ├── PSO_Selected/
-│   └── gru_5fold_results.csv
-│
-├── CNNGRU_5FOLD_RESULTS/
-│   ├── figures/
-│   ├── Full_Features/
-│   ├── PSO_Selected/
-│   └── cnngru_5fold_results.csv
+├── docs/
+│   ├── all_models_comparison.png
+│   ├── baseline_confusion_matrices.png
+│   ├── cnn_training_history_combined.png
+│   └── pso_feature_frequency.png
 │
 ├── requirements.txt
 ├── README.md
