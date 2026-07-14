@@ -9,8 +9,8 @@ type: software
 authors:
   - family-names: Ingabire
     given-names: Hortence
-  - family-names: Arruda
-    given-names: Lúcia Valéria Ramos de
+  - family-names: Ramos de Arruda
+    given-names: Lúcia Valéria
 
 repository-code: "https://github.com/hortenceingabire/BreastCancer_Metaheuristic_DL"
 
