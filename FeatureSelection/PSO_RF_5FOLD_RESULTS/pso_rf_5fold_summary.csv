@@ -1,0 +1,7 @@
+Metric,Mean,Std,CV (%)
+Accuracy,0.9473,0.0207,2.19
+Precision,0.9495,0.0188,1.98
+Recall,0.9473,0.0207,2.19
+F1 Score,0.9473,0.0203,2.15
+Auc Roc,0.9912,0.004,0.4
+N Selected,13.6,2.245,16.51

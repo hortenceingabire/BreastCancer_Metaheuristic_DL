@@ -1,0 +1,8 @@
+{
+    "fold": 5,
+    "accuracy": 0.9823,
+    "precision": 0.9823,
+    "recall": 0.9823,
+    "f1_score": 0.9823,
+    "auc_roc": 0.9936
+}

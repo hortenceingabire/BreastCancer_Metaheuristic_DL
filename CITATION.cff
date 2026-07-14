@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+
+title: "Source Code for: Impact of Metaheuristic-Based Feature Selection on the Performance of Deep Learning Models for Breast Cancer Classification"
+
+message: >
+  If you use this software, please cite both the associated manuscript
+  and this software repository.
+
+type: software
+
+authors:
+  - family-names: "Ingabire"
+    given-names: "Hortence"
+
+  - family-names: "Arruda"
+    given-names: "Lúcia Valéria Ramos de"
+
+keywords:
+  - Breast Cancer
+  - Feature Selection
+  - Particle Swarm Optimization
+  - Ant Colony Optimization
+  - Deep Learning
+  - CNN
+  - GRU
+  - CNN-GRU
+  - Random Forest
+  - XGBoost
+  - Machine Learning
+
+license: MIT
+
+date-released: 2026
+
+abstract: >
+  Python implementation of wrapper-based feature selection methods using
+  Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO),
+  integrated with Random Forest classifiers, Convolutional Neural Networks
+  (CNN), Gated Recurrent Units (GRU), hybrid CNN-GRU architectures,
+  and XGBoost for breast cancer classification using the Breast Cancer
+  Wisconsin Diagnostic (BCWD) dataset.
