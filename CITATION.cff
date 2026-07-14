@@ -2,18 +2,21 @@ cff-version: 1.2.0
 
 title: "Source Code for: Impact of Metaheuristic-Based Feature Selection on the Performance of Deep Learning Models for Breast Cancer Classification"
 
-message: >
-  If you use this software, please cite both the associated manuscript
-  and this software repository.
+message: "If you use this software, please cite both the associated manuscript and this software repository."
 
 type: software
 
 authors:
-  - family-names: "Ingabire"
-    given-names: "Hortence"
+  - family-names: Ingabire
+    given-names: Hortence
+  - family-names: Arruda
+    given-names: Lúcia Valéria Ramos de
 
-  - family-names: "Arruda"
-    given-names: "Lúcia Valéria Ramos de"
+repository-code: "https://github.com/hortenceingabire/BreastCancer_Metaheuristic_DL"
+
+doi: "10.5281/zenodo.21358619"
+
+license: MIT
 
 keywords:
   - Breast Cancer
@@ -28,14 +31,17 @@ keywords:
   - XGBoost
   - Machine Learning
 
-license: MIT
-
-date-released: 2026
-
 abstract: >
-  Python implementation of wrapper-based feature selection methods using
+  Python implementation accompanying the manuscript
+  "Impact of Metaheuristic-Based Feature Selection on the Performance of
+  Deep Learning Models for Breast Cancer Classification".
+  The repository includes wrapper-based feature selection using
   Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO),
-  integrated with Random Forest classifiers, Convolutional Neural Networks
-  (CNN), Gated Recurrent Units (GRU), hybrid CNN-GRU architectures,
-  and XGBoost for breast cancer classification using the Breast Cancer
-  Wisconsin Diagnostic (BCWD) dataset.
+  baseline machine learning models (Random Forest and XGBoost),
+  deep learning models (CNN, GRU, and CNN-GRU),
+  experimental scripts, results, and documentation required
+  to reproduce the reported experiments.
+
+date-released: 2026-07-14
+
+version: "1.0.0"

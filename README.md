@@ -6,6 +6,8 @@ Implementation accompanying the manuscript:
 
 Submitted to *Scientific Reports*.
 
+**Software DOI:** https://doi.org/10.5281/zenodo.21358619
+
 # Table of Contents
 
 - Overview
